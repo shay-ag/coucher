@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.page1{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    padding: 1rem 2rem;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #00d4a7;
+    padding: 0.5rem 0;
+}
+
+nav img{
+    height: 6vh;
+}
+
+nav .nav-part2{
+    display: flex;
+    gap: 4rem;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin-top: 2rem;
+}
+
+.left{
+    height: 80%;
+    width: 50%;
+    padding: 5rem 1rem;
+    border-bottom: 10px solid #00d4a7;
+}
+
+.left h1{
+    font-size: 8rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.right{
+    height: 80%;
+    width: 50%;
+    padding: 0rem 2rem;
+    text-align: center;
+}
+
+.right img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.page2{
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+}
+
+.container2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.page2 #box {
+    height: 40vh;
+    width: 20vw;
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+.box1{
+    background-color: #00d4a7;
+}
+
+.box1 h3{
+    color: black;
+    font-size: 3rem;
+}
+
+.box2{
+    background-color: #000;
+    border: 1px solid #00d4a7;;
+}
+
+.box2 h2{
+    color: #00d4a7;;
+    font-size: 3rem;
+}
+
+.box3{
+    background-color: #00d4a7;
+}
+
+.box3 h3{
+    color: black;
+    font-size: 3rem;
+}
